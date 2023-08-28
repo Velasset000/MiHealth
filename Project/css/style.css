@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #D1D1D1;
+}
+h1 #title1 {
+    color: red;
+    background-color: white;
+}
+h1 #title2 {
+    color: #93C54B;
+    background-color: white;
+}
+h2 {
+    font-size: 60px;
+    font-weight: bolder;
+    margin: 0px;
+    padding: 0px;
+    height: 60px;
+}
+header{
+    background-color: white;
+    padding: 0;
+}
+#title{
+    background-color: white;
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+#navBar{
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+#navBar a {
+    padding: 20px;
+    background-color: white;
+}
+#main {
+    background-color: #D1D1D1;
+    display: flex;
+    margin: 35px;
+    max-height: 600px;
+
+}
+#leftContainer {
+    position: relative;
+    width: 30%;
+    margin: 65px;
+    margin-bottom: 0px;
+    font-size: 23px;
+    max-height: 450px;
+}
+#leftContainer p {
+   font-size: 20px;
+    bottom: 70px;
+    height: 70px;
+    font-weight: 20;
+    margin: 40px 0px;
+}
+.info {
+    position: absolute;
+    bottom: 20px;
+    margin-top: 40px;
+
+}
+#leftContainer a{
+    margin-top: 25px;
+}
+#imageContainer{
+    display: flex;
+}
+.images {
+    margin: 65px 5px;
+
+    position: relative;
+}
+.pictureTextGreen {
+    font-size: 22px;
+    position: absolute;
+    padding: 12px 15px 12px 32px;
+    bottom: 5px;
+    right: 0px;
+    background-color: #93C54B;
+    font-weight: 800;
+}
+
+.pictureTextWhite {
+    font-size: 22px;
+    position: absolute;
+    bottom: 59px;
+    right: 0px;
+    padding: 12px 18px 10px 37px;
+    background-color: white;
+    font-weight: 800;
+}
+#thirdPic {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    object-position: -7px 0px;
+}
+.arrow1 {
+    margin-top: 15px;
+}
+.arrow-right:after {
+    content: "";
+    display: inline-block !important;
+    width: 0;
+    height: 0;
+    border-left: 8px solid #000000;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    vertical-align: middle;
+  
+  }
+  
+  .arrow-right:before {
+    width: 30px;
+    height: 2px;
+    background: #000000;
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+  }
+  #navBar :hover {
+    background-color: #D1D1D1;
+  }
+#secondText {
+    padding-left: 70px;
+}
+#thirdText {
+    padding-left: 90px;
+}
